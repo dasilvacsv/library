@@ -19,13 +19,12 @@ window.geometry("795x502")
 window.configure(bg = "#000000")
 
 
-
 canvas = Canvas(
     window,
     bg = "#000000",
     height = 502,
     width = 795,
-    bd = 20,
+    bd = 0,
     highlightthickness = 0,
     relief = "ridge"
 )
